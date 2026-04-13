@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auraa Jewellery | Luxury Jewellery at Affordable Prices</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = { theme: { extend: { colors: { gold: { 400: '#FBBF24', 500: '#D4AF37', 600: '#B8860B' }, dark: '#111111' }, fontFamily: { serif: ['Playfair Display', 'serif'], sans: ['Inter', 'sans-serif'] } } } }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3, .brand-font { font-family: 'Playfair Display', serif; }
+        .smooth-hover { transition: all 0.3s ease; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <div class="bg-gold-500 text-black text-center py-2 text-sm font-semibold tracking-wide">
+        🔥 FLAT 20% OFF ON ALL ORDERS | USE CODE: AURAA20
+    </div>
+
+    <nav class="bg-dark text-white sticky top-0 z-50 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0 text-center">
+                    <h1 class="text-3xl font-bold tracking-widest text-gold-500 brand-font">AURAA</h1>
+                </div>
+                <div class="flex items-center space-x-6">
+                    <a href="#" class="hover:text-gold-500 smooth-hover relative">
+                        <i class="fas fa-shopping-bag text-xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="relative bg-dark h-[80vh] flex items-center justify-center text-center">
+        <div class="absolute inset-0 bg-black opacity-60 z-10"></div>
+        <img src="https://images.unsplash.com/photo-1599643478514-4a110186134b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" alt="Premium Jewellery" class="absolute inset-0 w-full h-full object-cover z-0">
+        
+        <div class="relative z-20 px-4 max-w-4xl">
+            <h2 class="text-5xl md:text-7xl font-bold text-white mb-4 drop-shadow-lg brand-font">Luxury Jewellery <br><span class="text-gold-500">at Affordable Prices</span></h2>
+            <button class="bg-gold-500 text-dark font-bold py-4 px-10 text-lg uppercase tracking-wide hover:bg-white smooth-hover mt-4">
+                Shop The Collection
+            </button>
+        </div>
+    </div>
+
+    <div class="bg-white py-6 border-b">
+        <div class="max-w-7xl mx-auto px-4 flex flex-wrap justify-around text-center text-sm md:text-base font-semibold">
+            <div class="flex items-center space-x-2"><i class="fas fa-money-bill-wave text-gold-500 text-xl"></i><span>COD Available</span></div>
+            <div class="flex items-center space-x-2"><i class="fas fa-shipping-fast text-gold-500 text-xl"></i><span>Free & Fast Delivery</span></div>
+        </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 py-16">
+        <div class="text-center mb-12">
+            <h2 class="text-4xl font-bold text-dark mb-2 brand-font">Bestselling Pieces</h2>
+            <div class="w-24 h-1 bg-gold-500 mx-auto"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="bg-white border hover:shadow-2xl smooth-hover group relative p-4 text-center">
+                <img src="https://images.unsplash.com/photo-1599643477877-530eb83abc8e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Product 1" class="w-full h-64 object-cover mb-4">
+                <h3 class="text-lg font-semibold text-dark mb-2 brand-font">Premium Kundan Choker</h3>
+                <div class="text-xl font-bold text-red-600 mb-4">₹1,499</div>
+                <button class="w-full bg-green-600 text-white py-2 font-semibold hover:bg-green-700 smooth-hover">Buy via WhatsApp</button>
+            </div>
+            
+            <div class="bg-white border hover:shadow-2xl smooth-hover group relative p-4 text-center">
+                <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Product 2" class="w-full h-64 object-cover mb-4">
+                <h3 class="text-lg font-semibold text-dark mb-2 brand-font">18k Gold-Plated Chain</h3>
+                <div class="text-xl font-bold text-red-600 mb-4">₹499</div>
+                <button class="w-full bg-green-600 text-white py-2 font-semibold hover:bg-green-700 smooth-hover">Buy via WhatsApp</button>
+            </div>
+        </div>
+    </div>
+
+    <a href="https://wa.me/YOUR_PHONE_NUMBER" class="fixed bottom-6 right-6 bg-green-500 text-white w-14 h-14 rounded-full flex items-center justify-center text-3xl shadow-lg hover:scale-110 smooth-hover z-50">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+</body>
+</html>
